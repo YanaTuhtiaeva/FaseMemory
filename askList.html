@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FaceMemory</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>	
+	<section id="question">
+		<h1>Как зовут этого человека?</h1>
+		<p id="img"></p>
+		<div id="variants"></div>
+		<a href="#" id="checkAns">Проверить</a>		
+	</section>
+	<section id="right">
+		<h2>Совершенно верно!</h2>
+		<a href="askList.html" class="next">Cледующий вопрос</a>
+		<a href="end.html" class="end">Заверить</a>
+	</section>
+	<section id="wrong">
+		<h2>Вы ошиблись(((</h2>
+		<p id="rightAns"></p>
+		<a href="askList.html" class="next">Продолжить</a>
+		<a href="end.html" class="end">Завершить</a>
+	</section>
+	<script src="form.js"></script>
+</body>
+</html>
